@@ -7,4 +7,4 @@ fetch(URL)
 	.then(data => {
   	const img = document.querySelector('img');
   	img.src = data[0].url;
-});
+	});
